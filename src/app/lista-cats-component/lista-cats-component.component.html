@@ -1,0 +1,14 @@
+<div class="cat-container" *ngFor="let cat of cats">
+    <div class="cat-card">
+      <img src={{cat.image}} alt="{{ cat.nome }} Image" class="cat-image" />
+      <div class="cat-details">
+        <h2>{{ cat.name }}</h2>
+        <p><strong>ID:</strong> {{ cat.id }}</p>
+        <p><strong>Origem:</strong> {{ cat.origin }}</p>
+        <p><strong>Temperamento:</strong> {{ cat.temperament }}</p>
+        <p><strong>Cores:</strong> {{ cat.colors }}</p>
+        <p><strong>Descrição:</strong> {{ cat.description }}</p>
+      </div>
+    </div>
+  </div>
+  
